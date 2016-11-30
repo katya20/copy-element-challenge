@@ -11,5 +11,9 @@ var elementsList = $("#elements-list");
 var el = $(".element")
 $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
+$(elementsList).append(el.clone())
+$(elementsList).append(el.clone())
+
+
 
 
