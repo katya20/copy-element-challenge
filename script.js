@@ -13,6 +13,10 @@ $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
+$(elementsList).append(el.clone())
+$(elementsList).append(el.clone())
+
+var a = ["red", "green", "blue", "yellow", "yellow",
 
 
 
