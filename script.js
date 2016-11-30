@@ -23,7 +23,8 @@ $(elementsList).append(el.clone())
 
 var a = ["white", "red", "green", "blue", "yellow", "yellow", "magenta", "white", "pink", "magenta", "lightpink"];
 a.forEach(function(color) {
-  .element
+  el.css("background-color",color);
+  
   console.log(color);
     }
 )
