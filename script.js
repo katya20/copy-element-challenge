@@ -22,11 +22,12 @@ $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
 
 var a = ["white", "red", "green", "blue", "yellow", "yellow", "magenta", "white", "pink", "magenta", "lightpink"];
+var el = $(".element")
 a.forEach(function(color) {
-  var n = 0;
-  $(elementsList).eq(n).css("background-color",color);
+
+  el.eq(n).css("background-color",color);
   console.log(color);
-  n++;
+
     }
 )
 
