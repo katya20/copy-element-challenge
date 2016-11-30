@@ -7,4 +7,4 @@
 
 var elementsList = $("#elements-list")
 
-$(".element").clone;
+$(".element").clone()appendTo("$("#elements-list")");
