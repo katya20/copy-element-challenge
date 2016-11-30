@@ -12,7 +12,7 @@ var el = $(".element")
 
 var a = ["white", "red", "green", "blue", "yellow", "yellow", "magenta", "white", "pink", "magenta", "lightpink"];
 a.forEach(function(color, n) {
-  $(elementsList).append(el.clone().css("background-color",color))
+  $(elementsList).append(el.clone().css("background-color", color))
 })
 
 
