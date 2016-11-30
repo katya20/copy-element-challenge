@@ -25,8 +25,8 @@ var a = ["white", "red", "green", "blue", "yellow", "yellow", "magenta", "white"
 a.forEach(function(color) {
   var n = 0;
   el.eq(n).css("background-color",color);
-  n++
   console.log(color);
+  n++;
     }
 )
 
