@@ -21,7 +21,11 @@ $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
 
-var a = ["red", "green", "blue", "yellow", "yellow", "magenta", "white", "pink", "magenta", 
+var a = ["red", "green", "blue", "yellow", "yellow", "magenta", "white", "pink", "magenta", "lightpink"];
+a.forEach(function(color) {
+
+}
+          )
 
 
 
